@@ -13,7 +13,7 @@ local Window = redzlib:MakeWindow({
 local Tab = Window:MakeTab({"Um", "cherry"})
 ```
 
-## Codes for change theme of redz lib
+## الاكواد
 Dark
 ```lua
   redzlib:SetTheme("Dark")
@@ -26,20 +26,20 @@ Purple
 ```lua
   redzlib:SetTheme("Purple")
 ```
-## Start tab
+## بدا التاب
 ```lua
 Window:SelectTab(Tab2)
 ```
-## Section
+## القسم
 ```lua
 local Section = Tab2:AddSection({"Section"})
 ```
 
-## Paragraph
+## بروغراف
 ```lua
 local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond Line"})
 ```
-## Dialog
+## بلوغل
 ```lua
   local Dialog = Window:Dialog({
     Title = "Dialog",
@@ -57,13 +57,13 @@ local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond L
     }
   })
 ```
-## Button
+## رز
 ```lua
 Tab1:AddButton({"Print", function()
 print("Hello World!")
 end})
 ```
-## Toggle
+## زر
 ```lua
 local Toggle1 = Tab1:AddToggle({
   Name = "Speed",
@@ -71,7 +71,7 @@ local Toggle1 = Tab1:AddToggle({
   Default = false
 })
 ```
-## Sliders
+## سبيدر
 ```lua
 Tab1:AddSlider({
   Name = "Speed",
@@ -85,7 +85,7 @@ Tab1:AddSlider({
 })
 ```
 
-## Dropdown
+## منيو صغير
 ```lua
 local Dropdown = Tab2:AddDropdown({
   Name = "Players List",
